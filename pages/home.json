@@ -1,0 +1,26 @@
+{
+  "name": "home",
+  "type": "page",
+  "url": "/home",
+  "params": {},
+  "variables": [
+    {
+      "name": "myApi",
+      "type": "open-api",
+      "id": "67b425f77226bd2b09d7f158"
+    },
+    {
+      "name": "getRest",
+      "type": "method",
+      "description": "",
+      "body": "$ctrl.myApi.getObjects().then(result => {\n    console.log(result.data)\n})",
+      "invokeOnLoad": true,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": []
+    }
+  ],
+  "children": []
+}
