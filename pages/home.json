@@ -22,5 +22,38 @@
       "parameters": []
     }
   ],
-  "children": []
+  "children": [
+    {
+      "name": "Breadcrumbs",
+      "nodeName": "bln-breadcrumbs",
+      "elementId": "",
+      "attributes": [
+        {
+          "property": "data-id",
+          "value": "D42D_Y"
+        },
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [],
+      "comments": "",
+      "type": "core-component",
+      "id": "breadcrumbs",
+      "expressions": []
+    }
+  ]
 }
